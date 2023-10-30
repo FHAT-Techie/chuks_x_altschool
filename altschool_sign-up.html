@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>altschool_sign-up</title>
+    <style>
+         body {
+        font-family: fantasy;
+        padding: 0px 72px;
+      }
+        label, button{
+            display: block;
+        }
+         header {
+        color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+          .nav-bar li {
+        margin-right: 25px;
+        display: inline-block;
+      }
+    </style>
+</head>
+<body>
+     <header id="header">
+      <h1>FHATBOY X ALTSCHOOL</h1>
+      <nav class="nav-bar" aria-current="page">
+        <ul role="navigation">
+          <li><a href="/index.html">HOME</a></li>
+          <li><a href="/index.html/#bio">BIOGRAPHY</a></li>
+          <li><a href="/altschool_sign-up.html/">WHY ALTSCHOOL ?</a></li>
+          <li><a href="/altschool_sign-up.html/">MY ALTSCHOOL GOAL</a></li>
+          <li>
+            <a href="/altschool_sign-up.html" target="_self">JOIN ALTSCHOOL</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Application Form</h1>
+    <p>Fill in your details</p>
+    <label for="First-name">First Name<input type="text" name="first-name" minlength="2" maxlength="20" placeholder="Enter First Name" required></label>
+    <label for="Last-name">First Name<input type="text" name="last-name" minlength="2" maxlength="20" placeholder="Enter First Name" required></label>
+   <label for="gender"> Gender<select name="gender" id="gender" required>
+    <option value="" disable select>Select Gender</option>
+        <Option value="male">Male</Option>
+        <Option value="female">Female</Option>
+    </select>
+    </label>
+    <label for="date of birth">Date of birth<input type="date"  required></label>
+    <label for="email">Email Address <input name="email" type="email" placeholder="Enter email address" required></label>
+    <label for="educational-level">Educational Level
+        <select name="educational-level" id="" required>
+            <option value="" disable select> Select Level Of Education</option>
+            <option value="o-level">O-level</option>
+            <option value="bsc">BSc</option>
+            <option value="msc">MSc</option>
+            <option value="phd">PHD</option>
+        </select>
+    </label>
+    <label for="country">Country
+        <select name="country" id="" required>
+            <option value="" disable select> Select your country</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Ghana">Ghana</option>
+            <option value="Canada">Canada</option>
+            <option value="Kenya">Keneya</option>
+        </select>
+    </label>
+   <label for="city/state">City/State of Residence<input type="text" name="city/state" minlength="2" maxlength="20" placeholder="Enter City/State of Residence" required></label>
+ <label for="employment_statues"> Empolyment Statues <select name="employment_status" id="gender" required>
+    <option value="" disable select>Select Gender</option>
+        <Option value="employed">Employed</Option>
+        <Option value="non-employed">Non-Employed</Option>
+        <option value="self-employed">Self-Employed</option>
+        <option value="student">Student</option>
+    </select>
+    </label>
+    <label for="tel">Phone number<input type="tel" name="tel" id="" required maxlength="11" placeholder="Enter Phone Number"></label>
+    <label for="school"> Choose School<select name="school" id="school" required>
+    <option value="" disable select>Select school</option>
+        <Option value="SOE">School of Engineering</Option>
+        <Option value="SOP">School of Production</Option>
+<option value="SOD">School od Data</option>
+    </select>
+    </label>
+    <label for="cos"> Course of Study<select name="cos" id="cos" required>
+    <option value="" disable select>Choose Course of study</option>
+        <Option value="fe">Frontend Engineering</Option>
+        <Option value="be">Backend Engineering</Option>
+<option value="ce">Cloud Engineering</option>
+    </select>
+    </label>
+    <label for="abt"> How did you heard about us<select name="abt" id="abt" required>
+    <option value="" disable select>Select Channel</option>
+        <Option value="social media">Social Media</Option>
+        <Option value="newspaper">News paper</Option>
+<option value="radio">Radio</option>
+    </select>
+    </label>
+      <label for="Scholarship/discount">Scholarship/Discount code(optional)<input type="text" name="Scholarship/discount" minlength="2" maxlength="20" placeholder="Scholarship/discount Code "></label>
+      <p>by clicking Continue, I agree to the <a href="http://">Terms of use</a></p> and acknowledge that I have read the <a href="http://">privacy policy</a>
+      <button type="submit">Processed</button>
+</body>
+</html>
